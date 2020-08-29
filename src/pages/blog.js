@@ -19,13 +19,15 @@ const ArticleDate = styled.h5`
 
 const MarkerHeader = styled.h3`
   display: inline;
+  
+  color: rgb(255,45,85);
   border-radius: 1em 0 1em 0;
-  background-image: linear-gradient(
+ /*  background-image: linear-gradient(
     -100deg,
     rgba(255, 250, 150, 0.15),
     rgba(255, 250, 150, 0.8) 100%,
     rgba(255, 250, 150, 0.25)
-  );
+  ); */
 `
 
 const ReadingTime = styled.h5`

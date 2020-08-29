@@ -1,8 +1,16 @@
 ---
-title: "Second Title"
-date: "2019-03-18"
+title: "Hello World"
+date: "2020-08-28"
 draft: false
-path: "/blog/second-title"
+path: "/blog/hello"
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+
+
+### Finally !
+---
+Hello, So if you are reading this then probably I've finally made my blog site after several attempts. When I came to KGP I use to stalk Github profile of my seniors (xD). And I was amazed by seeing there blog webites. Some where so beautiful while others had so much content to learn from it. From then on I decided that one day I'll also make one for myself. 
+
+And it took me almost one year to make it (Please Don't ask why). So from now I'll be spamming it whatever I feel like stuffs. Also I'll try to write some techincal blogs (Although I'm not good at it).
+

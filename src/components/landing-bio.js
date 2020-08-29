@@ -15,16 +15,26 @@ const OuterContainer = styled.div`
   height: 78vh;
 `
 
+const NameHeader = styled.h1`
+  font-size: 5rem;
+  margin-bottom: 0.5rem;
+  font-family: "Mukta";
+`
 const Description = styled.p`
   padding: 0;
   margin-bottom: 1rem;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  color: rgb(255, 45, 85);
+  font-family: "Homemade Apple";
+  // font-weight: bold;
 `
-
-const NameHeader = styled.h1`
-  font-size: 3.5rem;
-  margin-bottom: 0;
-`
+/* 
+const UserId = styled.h4`
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+  text-align: left;
+  color: grey;
+` */
 
 const LandingBio = () => (
   <StaticQuery
@@ -33,15 +43,17 @@ const LandingBio = () => (
         site {
           siteMetadata {
             title
+            githubId
             subtitle
           }
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <OuterContainer>
         <Container>
           <NameHeader>{data.site.siteMetadata.title}</NameHeader>
+          {/* <UserId> {data.site.siteMetadata.githubId} </UserId> */}
           <Description>{data.site.siteMetadata.subtitle}</Description>
         </Container>
       </OuterContainer>
